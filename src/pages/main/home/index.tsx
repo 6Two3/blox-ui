@@ -48,7 +48,7 @@ export default function Home() {
                     <div className='flex flex-col gap-4'>
                         <div className='grid grid-cols-5 gap-4'>
                             {Array.from({ length: 30 }).map((_, index) => (
-                                <div key={index} className='flex flex-col items-center gap-4 bg-dark-gray1 rounded-md p-4'>
+                                <div key={index} className='flex flex-col items-center gap-4 bg-dark-gray1 rounded-md p-4 hover:scale-105 hover:cursor-pointer transition-all duration-300'>
                                     <img src='/assets/icons/mine.png' alt='mine' />
                                     <span className='text-white'>Gold Digger</span>
                                     <div className='flex flex-row gap-3'>
